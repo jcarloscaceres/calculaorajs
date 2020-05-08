@@ -2,7 +2,7 @@
     display: block;
     margin: 0 auto;
     padding: 20px;
-    background-color: #DC4C46;
+    background-color: #ededed;
     width: 345px;
     height: 500px;
     border-radius: 25px;
@@ -15,6 +15,40 @@ height: 70px;
 font-size: 25px;
 }
 
+.nums{
+    border: 0px;
+    background-color: #fff;
+    color: #666;
+}
+
+.op{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    margin-left: 10px;
+}
+
+.op:hover{
+    box-shadow: 0px 0px 12px #000;
+    transition: all 0.09s;
+}
+
+.nums:hover{
+    box-shadow: 0px 0px 12px #aaa;
+    transition: all 0.09s;
+    }
+
+.plus{
+    background-color: #48c;
+    color: #fff;
+    border: none;
+
+}
+
+.plus:hover{
+    box-shadow: 0px 0px 12px #48c;
+}
+
 #resultado{
     display: block;
     text-align: right;
@@ -23,7 +57,8 @@ font-size: 25px;
     width: 300px;
     height: 100px;
     line-height: 100px;
-    background-color: #fff;
+    background-color: #666;
     border-radius: 25px;
     overflow: hidden;
+    color: #eee;
 }
